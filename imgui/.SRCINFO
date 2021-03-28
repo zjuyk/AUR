@@ -1,0 +1,14 @@
+pkgbase = imgui
+	pkgdesc = Bloat-free Graphical User interface for C++
+	pkgver = 1.82
+	pkgrel = 1
+	url = https://github.com/ocornut/imgui
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	depends = gcc-libs
+	source = https://codeload.github.com/ocornut/imgui/tar.gz/v1.82
+	sha256sums = fefa2804bd55f3d25b134af08c0e1f86d4d059ac94cef3ee7bd21e2f194e5ce5
+
+pkgname = imgui
+
