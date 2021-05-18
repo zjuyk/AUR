@@ -16,7 +16,6 @@ prepare() {
   wget https://raw.githubusercontent.com/microsoft/vcpkg/master/ports/imgui/imgui-config.cmake.in  
 }
 
-
 build() {
   cd $pkgname-$pkgver
   mkdir -p build && cd build 
